@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.nilesh.citest.HelloWorld;
 
 public class sayHelloTest {
-	
+	//Testng Tests
 	@Test
 	public void testSayHello(){
 		new HelloWorld();
