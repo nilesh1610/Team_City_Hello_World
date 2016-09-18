@@ -15,5 +15,10 @@ public class sayHelloTest {
 		Assert.assertTrue("Hello abc!".equalsIgnoreCase(HelloWorld.sayHello("abc")), "Test if both the strings are equal");
 		//Assert.assertTrue("Hello abc!".equalsIgnoreCase(HelloWorld.sayHello("abc")));
 	}
+	
+	@Test
+	public void failTest(){
+		Assert.assertTrue(false);
+	}
 
 }
