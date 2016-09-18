@@ -1,5 +1,7 @@
 package com.nilesh.citest.test;
 
+
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,6 +13,7 @@ public class sayHelloTest {
 	public void testSayHello(){
 		new HelloWorld();
 		Assert.assertTrue("Hello abc!".equalsIgnoreCase(HelloWorld.sayHello("abc")), "Test if both the strings are equal");
+		//Assert.assertTrue("Hello abc!".equalsIgnoreCase(HelloWorld.sayHello("abc")));
 	}
 
 }
